@@ -1,6 +1,6 @@
 const { Sequelize } = require('sequelize')
-const fs = require('node:fs')
-const path = require('node:path')
+const fs = require('fs')
+const path = require('path')
 require('dotenv').config() // Cargar las variables de entorno desde el archivo .env
 
 const db = new Sequelize({
