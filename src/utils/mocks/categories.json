@@ -1,0 +1,82 @@
+[
+    {
+        "name": "appliances",
+        "description": "Electrodomésticos"
+    },
+    {
+        "name": "arts-crafts",
+        "description": "Artes, Manualidades y Costura"
+    },
+    {
+        "name": "baby-products",
+        "description": "Bebé"
+    },
+    {
+        "name": "beauty",
+        "description": "Belleza y Cuidado Personal"
+    },
+    {
+        "name": "collectibles",
+        "description": "Coleccionables y Bellas Artes"
+    },
+    {
+        "name": "electronics",
+        "description": "Electrónica"
+    },
+    {
+        "name": "fashion",
+        "description": "Ropa, Zapatos y Joyería"
+    },
+    {
+        "name": "garden",
+        "description": "Hogar y Cocina"
+    },
+    {
+        "name": "grocery",
+        "description": "Comestibles y Alimentos Gourmet"
+    },
+    {
+        "name": "handmade",
+        "description": "Hecho a Mano"
+    },
+    {
+        "name": "hpc",
+        "description": "Salud, Hogar y Cuidado del Bebé"
+    },
+    {
+        "name": "industrial",
+        "description": "Industrial y Científico"
+    },
+    {
+        "name": "mi",
+        "description": "Instrumentos Musicales"
+    },
+    {
+        "name": "mobile",
+        "description": "Teléfonos Celulares y Accesorios"
+    },
+    {
+        "name": "office-products",
+        "description": "Productos de Oficina"
+    },
+    {
+        "name": "pets",
+        "description": "Suministros para Mascotas"
+    },
+    {
+        "name": "sporting",
+        "description": "Deportes y Aire Libre"
+    },
+    {
+        "name": "books",
+        "description": "Libros"
+    },
+    {
+        "name": "tools",
+        "description": "Herramientas y Mejoras para el Hogar"
+    },
+    {
+        "name": "toys-and-games",
+        "description": "Juguetes y Juegos"
+    }
+]

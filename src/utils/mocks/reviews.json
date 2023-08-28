@@ -1,0 +1,392 @@
+[
+    {
+        "message": "Excelente producto, cumple con mis expectativas.",
+        "rating": 5,
+        "userId": 1,
+        "productId": 1
+    },
+    {
+        "message": "Buen producto, pero podría mejorar.",
+        "rating": 3,
+        "userId": 2,
+        "productId": 2
+    },
+    {
+        "message": "No quedé satisfecho con este producto.",
+        "rating": 2,
+        "userId": 3,
+        "productId": 1
+    },
+    {
+        "message": "Me encanta este producto, lo uso todos los días.",
+        "rating": 5,
+        "userId": 1,
+        "productId": 3
+    },
+    {
+        "message": "Producto muy útil y de buena calidad.",
+        "rating": 4,
+        "userId": 2,
+        "productId": 4
+    },
+    {
+        "message": "Buena calidad y diseño.",
+        "rating": 4,
+        "userId": 3,
+        "productId": 5
+    },
+    {
+        "message": "Increíble producto, lo recomiendo.",
+        "rating": 5,
+        "userId": 1,
+        "productId": 6
+    },
+    {
+        "message": "No era lo que esperaba, un poco decepcionado.",
+        "rating": 2,
+        "userId": 2,
+        "productId": 7
+    },
+    {
+        "message": "Gran iniciativa ecológica, me encanta.",
+        "rating": 5,
+        "userId": 1,
+        "productId": 8
+    },
+    {
+        "message": "No cumple con mis necesidades, el tamaño es muy pequeño.",
+        "rating": 2,
+        "userId": 3,
+        "productId": 9
+    },
+    {
+        "message": "Muy contento con mi compra, llegó en perfecto estado.",
+        "rating": 4,
+        "userId": 1,
+        "productId": 10
+    },
+    {
+        "message": "El mejor producto que he adquirido en mucho tiempo.",
+        "rating": 5,
+        "userId": 2,
+        "productId": 11
+    },
+    {
+        "message": "Cumple con su propósito, pero la calidad podría ser mejor.",
+        "rating": 3,
+        "userId": 3,
+        "productId": 12
+    },
+    {
+        "message": "Definitivamente una opción ecológica a considerar.",
+        "rating": 4,
+        "userId": 1,
+        "productId": 13
+    },
+    {
+        "message": "No estoy seguro de su durabilidad, el material parece frágil.",
+        "rating": 2,
+        "userId": 2,
+        "productId": 14
+    },
+    {
+        "message": "Superó mis expectativas, realmente impresionante.",
+        "rating": 5,
+        "userId": 3,
+        "productId": 15
+    },
+    {
+        "message": "Buen precio por lo que ofrece, lo recomiendo.",
+        "rating": 4,
+        "userId": 1,
+        "productId": 16
+    },
+    {
+        "message": "No estoy convencido, esperaba más calidad.",
+        "rating": 2,
+        "userId": 2,
+        "productId": 17
+    },
+    {
+        "message": "Ideal para quienes buscan opciones sostenibles.",
+        "rating": 4,
+        "userId": 3,
+        "productId": 18
+    },
+    {
+        "message": "Me decepcionó la funcionalidad, no es práctico.",
+        "rating": 2,
+        "userId": 1,
+        "productId": 19
+    },
+    {
+        "message": "¡Increíblemente útil! No puedo creer que no lo haya obtenido antes.",
+        "rating": 5,
+        "userId": 2,
+        "productId": 20
+    },
+    {
+        "message": "Un producto básico, pero cumple con su propósito.",
+        "rating": 3,
+        "userId": 3,
+        "productId": 21
+    },
+    {
+        "message": "Me encanta el diseño y la calidad, pero es un poco costoso.",
+        "rating": 4,
+        "userId": 1,
+        "productId": 22
+    },
+    {
+        "message": "No era lo que esperaba, pero podría funcionar para otros.",
+        "rating": 2,
+        "userId": 2,
+        "productId": 23
+    },
+    {
+        "message": "Me siento bien apoyando una marca ecológica como esta.",
+        "rating": 4,
+        "userId": 3,
+        "productId": 24
+    },
+    {
+        "message": "Impresionante calidad, vale cada centavo.",
+        "rating": 5,
+        "userId": 1,
+        "productId": 25
+    },
+    {
+        "message": "Podría mejorar en términos de durabilidad, pero buen producto en general.",
+        "rating": 3,
+        "userId": 2,
+        "productId": 26
+    },
+    {
+        "message": "No estoy seguro de cómo me siento acerca de esto, no era lo que esperaba.",
+        "rating": 2,
+        "userId": 3,
+        "productId": 27
+    },
+    {
+        "message": "Estoy emocionado por el impacto positivo que tiene en el medio ambiente.",
+        "rating": 4,
+        "userId": 1,
+        "productId": 28
+    },
+    {
+        "message": "Me gustaría que tuviera más opciones de tamaño, pero la calidad es buena.",
+        "rating": 4,
+        "userId": 2,
+        "productId": 29
+    },
+    {
+        "message": "Una gran alternativa sostenible, lo recomiendo a todos.",
+        "rating": 5,
+        "userId": 3,
+        "productId": 30
+    },
+    {
+        "message": "No es exactamente lo que necesitaba, pero tiene sus ventajas.",
+        "rating": 3,
+        "userId": 1,
+        "productId": 31
+    },
+    {
+        "message": "La calidad no está a la altura de las expectativas.",
+        "rating": 2,
+        "userId": 2,
+        "productId": 32
+    },
+    {
+        "message": "Realmente me sorprendió lo bien que funciona este producto.",
+        "rating": 4,
+        "userId": 3,
+        "productId": 33
+    },
+    {
+        "message": "Aunque es eco-friendly, la función principal es deficiente.",
+        "rating": 2,
+        "userId": 1,
+        "productId": 34
+    },
+    {
+        "message": "Muy contento con mi compra, realmente útil en mi vida diaria.",
+        "rating": 5,
+        "userId": 2,
+        "productId": 35
+    },
+    {
+        "message": "Un producto promedio, cumple con lo que esperaba.",
+        "rating": 3,
+        "userId": 3,
+        "productId": 36
+    },
+    {
+        "message": "Me encanta el diseño, pero la calidad podría ser mejor.",
+        "rating": 4,
+        "userId": 1,
+        "productId": 37
+    },
+    {
+        "message": "No era lo que tenía en mente, pero puede ser útil en ciertas situaciones.",
+        "rating": 3,
+        "userId": 2,
+        "productId": 38
+    },
+    {
+        "message": "Apoyo totalmente la sostenibilidad, pero este producto no me convence.",
+        "rating": 2,
+        "userId": 3,
+        "productId": 39
+    },
+    {
+        "message": "Realmente me gusta este producto, hace que mi vida sea más fácil.",
+        "rating": 4,
+        "userId": 1,
+        "productId": 40
+    },
+    {
+        "message": "No estoy seguro de si valió la pena el precio que pagué.",
+        "rating": 3,
+        "userId": 2,
+        "productId": 41
+    },
+    {
+        "message": "No estoy impresionado, esperaba más en términos de calidad.",
+        "rating": 2,
+        "userId": 3,
+        "productId": 42
+    },
+    {
+        "message": "Una excelente opción para quienes buscan una alternativa ecológica.",
+        "rating": 5,
+        "userId": 1,
+        "productId": 43
+    },
+    {
+        "message": "La funcionalidad no coincide con la descripción, algo decepcionado.",
+        "rating": 2,
+        "userId": 2,
+        "productId": 44
+    },
+    {
+        "message": "Este producto ha superado mis expectativas, lo recomendaré.",
+        "rating": 5,
+        "userId": 3,
+        "productId": 45
+    },
+    {
+        "message": "Buena relación calidad-precio, se adapta a lo que necesitaba.",
+        "rating": 4,
+        "userId": 1,
+        "productId": 46
+    },
+    {
+        "message": "No estoy completamente satisfecho, esperaba algo más duradero.",
+        "rating": 3,
+        "userId": 2,
+        "productId": 47
+    },
+    {
+        "message": "Un producto ecológico que encaja perfectamente en mi estilo de vida.",
+        "rating": 4,
+        "userId": 3,
+        "productId": 48
+    },
+    {
+        "message": "El tamaño no es el adecuado para mis necesidades, un poco decepcionado.",
+        "rating": 2,
+        "userId": 1,
+        "productId": 49
+    },
+    {
+        "message": "Me encanta este producto, es exactamente lo que necesitaba.",
+        "rating": 5,
+        "userId": 2,
+        "productId": 50
+    },
+    {
+        "message": "No cumplió mis expectativas, la calidad no es la mejor.",
+        "rating": 2,
+        "userId": 3,
+        "productId": 10
+    },
+    {
+        "message": "Un gran producto para aquellos que buscan soluciones sostenibles.",
+        "rating": 4,
+        "userId": 1,
+        "productId": 22
+    },
+    {
+        "message": "Podría ser mejor, el diseño es atractivo pero la funcionalidad falla.",
+        "rating": 3,
+        "userId": 2,
+        "productId": 28
+    },
+    {
+        "message": "Buen precio y buena calidad, lo recomiendo.",
+        "rating": 4,
+        "userId": 3,
+        "productId": 35
+    },
+    {
+        "message": "Satisfecho con mi compra, cumple con lo prometido.",
+        "rating": 4,
+        "userId": 1,
+        "productId": 50
+    },
+    {
+        "message": "No era lo que esperaba, la calidad dejó mucho que desear.",
+        "rating": 2,
+        "userId": 2,
+        "productId": 28
+    },
+    {
+        "message": "Excelente opción para aquellos interesados en la sostenibilidad.",
+        "rating": 5,
+        "userId": 3,
+        "productId": 17
+    },
+    {
+        "message": "Buen producto en general, aunque podría ser más duradero.",
+        "rating": 3,
+        "userId": 1,
+        "productId": 9
+    },
+    {
+        "message": "Me encanta este artículo, es perfecto para mis necesidades.",
+        "rating": 5,
+        "userId": 2,
+        "productId": 36
+    },
+    {
+        "message": "Podría ser mejor en términos de funcionalidad.",
+        "rating": 3,
+        "userId": 3,
+        "productId": 44
+    },
+    {
+        "message": "Una gran elección para quienes buscan productos ecológicos.",
+        "rating": 4,
+        "userId": 1,
+        "productId": 7
+    },
+    {
+        "message": "Me decepcionó, esperaba más por el precio que pagué.",
+        "rating": 2,
+        "userId": 2,
+        "productId": 19
+    },
+    {
+        "message": "Una alternativa interesante, aunque no es muy práctica.",
+        "rating": 3,
+        "userId": 3,
+        "productId": 25
+    },
+    {
+        "message": "Cumple con su función, pero la calidad no es excepcional.",
+        "rating": 3,
+        "userId": 1,
+        "productId": 42
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Admin",
+        "email": "admin@gmail.com",
+        "password": "admin",
+        "origin": "google",
+        "image": "https://cdn.pixabay.com/photo/2020/08/05/13/12/eco-5465432_640.png",
+        "roleId": "1"
+    },
+    {
+        "name": "Guest",
+        "email": "guest@gmail.com",
+        "password": "password",
+        "origin": "github",
+        "image": "https://cdn.pixabay.com/photo/2020/08/05/13/12/eco-5465432_640.png",
+        "roleId": "2"
+    },
+    {
+        "name": "Guest User",
+        "email": "guest2@gmail.com",
+        "password": "password",
+        "origin": "greenland",
+        "image": "https://cdn.pixabay.com/photo/2020/08/05/13/12/eco-5465432_640.png",
+        "roleId": "2"
+    }
+]
