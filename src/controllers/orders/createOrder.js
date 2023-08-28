@@ -2,6 +2,7 @@ const mercadopago = require('mercadopago')
 require('dotenv').config()
 const { SERVER_URL, CLIENT_URL, PAY_TOKEN } = process.env
 const createOrder = async (req, res) => {
+  console.log(PAY_TOKEN)
   const { userId, products } = req.body
   mercadopago.configure({
     access_token: PAY_TOKEN
