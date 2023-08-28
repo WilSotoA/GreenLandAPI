@@ -11,12 +11,14 @@ const db = new Sequelize({
   password: process.env.DB_PASSWORD,
   database: process.env.DB_DATABASE,
   logging: false,
-  dialectOptions: {
-    ssl: {
-      require: true,
-      rejectUnauthorized: false // Esto es importante si estás teniendo problemas con certificados autofirmados
-    }
-  }
+  dialectOptions: process.env.NODE_ENV === 'production'
+    ? {
+        ssl: {
+          require: true,
+          rejectUnauthorized: false
+        }
+      }
+    : {}
 })
 
 const basename = path.basename(__filename)
