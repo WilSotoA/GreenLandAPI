@@ -1,0 +1,52 @@
+[
+    {
+        "totalPrice": 226.8,
+        "status": "approved",
+        "userId": 2
+    },
+    {
+        "totalPrice": 480,
+        "status": "approved",
+        "userId": 3
+    },
+    {
+        "totalPrice": 45,
+        "status": "approved",
+        "userId": 2
+    },
+    {
+        "totalPrice": 191.5,
+        "status": "approved",
+        "userId": 3
+    },
+    {
+        "totalPrice": 660.3,
+        "status": "approved",
+        "userId": 2
+    },
+    {
+        "totalPrice": 583.5,
+        "status": "approved",
+        "userId": 3
+    },
+    {
+        "totalPrice": 60.30,
+        "status": "approved",
+        "userId": 2
+    },
+    {
+        "totalPrice": 600,
+        "status": "approved",
+        "userId": 2
+    },
+    {
+        "totalPrice": 91.6,
+        "status": "approved",
+        "userId": 3
+    },
+    {
+        "totalPrice": 300.4,
+        "status": "approved",
+        "userId": 2
+    }
+]

@@ -63,6 +63,9 @@ Category.hasMany(Product) // Una categoria puede tener varios productos
 Product.belongsToMany(Order, { through: DetailOrder })
 Order.belongsToMany(Product, { through: DetailOrder })
 
+DetailOrder.belongsTo(Product)
+DetailOrder.belongsTo(Order)
+
 Review.belongsTo(User) // Una review pertenece a un usuario
 User.hasMany(Review) // Un usuario puede tener varias reviews
 
