@@ -10,7 +10,7 @@ const reviewPerProduct = async (req, res) => {
       where: { productId: id },
       include: [{
         model: User,
-        attributes: ['name', 'image']
+        attributes: ['id', 'name', 'image']
       }],
       attributes: {
         exclude: ['productId', 'userId']
