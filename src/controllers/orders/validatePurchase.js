@@ -20,7 +20,7 @@ const validatePurchase = async (req, res) => {
         productId
       }
     })
-    if (!orders || !orders.length || !detailOrders || !detailOrders.length) return res.status(404).json({ purchase: false })
+    if (!orders || !orders.length || !detailOrders || !detailOrders.length) return res.status(204).json({ purchase: false })
     res.json({ purchase: true })
   } catch (error) {
     res.status(error.response?.status || 500).json({ error: error.message })

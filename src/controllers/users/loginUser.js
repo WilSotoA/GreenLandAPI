@@ -43,13 +43,13 @@ const loginUser = async (req, res) => {
   try {
     const user = await User.findOne({
       where: { email },
-      attributes: { exclude: ['active', 'created'] }
+      attributes: { exclude: ['created'] }
     })
 
     if (!user) return res.status(409).json({ error: 'User not found' })
 
     if (user.origin !== 'greenland') return res.status(409).json({ error: `Email registered, Login with ${user.origin}` })
-
+    console.log('active' + user.active)
     if (user.active === false) return res.status(401).json({ error: 'User inactive' })
 
     if (user.isVerified === false) return res.status(401).json({ error: 'User not verified' })
@@ -59,6 +59,7 @@ const loginUser = async (req, res) => {
     const userObject = user.get() // Convertir la instancia en un objeto plano
     delete userObject.password
     delete userObject.origin
+    delete userObject.active
     delete userObject.isVerified
 
     if (!validPassword) return res.status(401).json({ error: 'Invalid password' })

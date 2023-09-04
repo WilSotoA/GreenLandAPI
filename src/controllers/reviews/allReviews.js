@@ -12,6 +12,7 @@ const allReviews = async (req, res) => {
           attributes: ['name']
         }
       ],
+      order: ['id'],
       attributes: { exclude: ['userId', 'productId'] }
     })
     if (!reviews || !reviews.length) return res.status(404).json({ error: 'Reviews not found' })
