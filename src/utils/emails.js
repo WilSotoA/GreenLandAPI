@@ -113,7 +113,7 @@ const undoPurchaseMail = async (order, userMessage) => {
 }
 
 const newUserEmail = async (name, email, token) => {
-  const activationLink = `https://greenland.onrender.com/user/verify?token=${token}`
+  const activationLink = `https://greenland.onrender.com/users/verify?token=${token}`
   const htmlContent = `<table align="center" style="border-collapse: collapse; margin-top: 20px; background-color: lightgreen; box-shadow: 0 4px 6px rgba(0,0,0,0.1); border: 1px solid gray; font-family: system-ui">
        <tr>
            <td align="center" style="padding: 40px;">
