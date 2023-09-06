@@ -157,7 +157,7 @@
         "price": 22.50,
         "stock": 35,
         "categoryId": 20,
-        "image": "https://firebasestorage.googleapis.com/v0/b/greenland-396822.appspot.com/o/files%2Frompecabezas-madera.jpg%201692833120560?alt=media&token=a47e499a-1545-4171-8b45-399093ece970"
+        "image": "https://firebasestorage.googleapis.com/v0/b/greenland-396822.appspot.com/o/files%2Frompecabezas-madera.jpg%201694018603147?alt=media&token=6d4c5599-b929-4542-afa7-3fbb0b00ec4c"
     },
     {
         "name": "Solar-Powered Blender",
@@ -189,7 +189,7 @@
         "price": 12.50,
         "stock": 70,
         "categoryId": 4,
-        "image": "https://firebasestorage.googleapis.com/v0/b/greenland-396822.appspot.com/o/files%2Fprotector-solar-eco.jpg%201692833240888?alt=media&token=c3d5bcfd-8c05-4972-be5f-a9aabdda3484"
+        "image": "https://firebasestorage.googleapis.com/v0/b/greenland-396822.appspot.com/o/files%2Fprotector-solar-eco.jpg%201694018754848?alt=media&token=79de6241-4e18-4743-bfb9-6be020713e60"
     },
     {
         "name": "Recycled Art Mural",
@@ -237,7 +237,7 @@
         "price": 19.95,
         "stock": 25,
         "categoryId": 20,
-        "image": "https://firebasestorage.googleapis.com/v0/b/greenland-396822.appspot.com/o/files%2Frompecabezas-eco.jpeg%201692833370682?alt=media&token=df9ede1e-f6f3-485a-b87a-672a908ea764"
+        "image": "https://firebasestorage.googleapis.com/v0/b/greenland-396822.appspot.com/o/files%2Frompecabezas-eco.jpeg%201694018821176?alt=media&token=827e2118-c560-424e-ac1f-0b711b3d97ca"
     },
     {
         "name": "Rainwater Collector",
@@ -245,7 +245,7 @@
         "price": 27.50,
         "stock": 20,
         "categoryId": 1,
-        "image": "https://firebasestorage.googleapis.com/v0/b/greenland-396822.appspot.com/o/files%2Frecolector-lluvia.webp%201692833388041?alt=media&token=7dd3c837-b7a2-492c-9ab7-5669a6fc9a46"
+        "image": "https://firebasestorage.googleapis.com/v0/b/greenland-396822.appspot.com/o/files%2Frecolector-lluvia.webp%201694018859902?alt=media&token=505e95d9-dfde-449a-aa99-2e7f28427eda"
     },
     {
         "name": "Recycled Rubber Stamp Set",

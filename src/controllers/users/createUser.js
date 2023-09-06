@@ -50,6 +50,34 @@ const createUser = async (req, res) => {
   }
 }
 
+const forgotPassword = async (req, res) => {
+  const { email } = req.body
+  if (!email) {
+    return res.status(400).json({ error: 'Incomplete required data' })
+  }
+  try {
+    const user = await User.findOne({ where: { email } })
+    if (!user) return res.status(404).json({ error: 'User not found' })
+    if (user.origin !== 'greenland') {
+      return res
+        .status(409)
+        .json({ error: `Email registered, Login with ${user.origin}` })
+    }
+    if (user.active === false) {
+      return res.status(401).json({ error: 'User inactive' })
+    }
+    if (user.isVerified === false) {
+      return res.status(401).json({ error: 'User not verified' })
+    }
+    const jwt = await generateJWT(user.id)
+    await sendPasswordResetPassword(jwt, user.email, jwt)
+    res.json({ message: 'Password reset email sent' })
+  } catch (error) {
+    return res
+      .status(error.response?.status || 500)
+      .json({ error: error.message })
+  }
+}
 
 
 const updatePassword = async (req, res) => {

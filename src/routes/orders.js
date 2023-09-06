@@ -7,6 +7,7 @@ const detailOrder = require('../controllers/orders/detailOrder.js')
 const { protect } = require('../middlewares/auth.js')
 const { restrictTo } = require('../middlewares/auth.js')
 const validatePurchase = require('../controllers/orders/validatePurchase.js')
+const undoPurchase = require('../controllers/orders/undoPurchase.js')
 const router = Router()
 
 router.get('/', protect, restrictTo('administrator'), allOrders)
@@ -18,6 +19,8 @@ router.get('/:id', protect, restrictTo('administrator'), detailOrder)
 router.get('/user/:id', protect, restrictTo('administrator', 'guest'), ordenPerUser)
 
 router.post('/', createOrder)
+
+router.post('/undo-purchase', protect, restrictTo('administrator', 'guest'), undoPurchase)
 
 router.post('/webhook', receiveWebHook)
 
